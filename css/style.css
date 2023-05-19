@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+.imagen-dos{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h2 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+#hero p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+#hero a {
+    color: white;
+    background-color: rgb(5, 5, 56);
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+header h1 {
+    color: white;
+    justify-content: left;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex
+}
+
+header ul li {
+    padding: 0px 12px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(138, 138, 138);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+footer li {
+    padding: 4px;
+}
+
+.navbar-collapse{
+    display: flex;
+    flex-basis: auto;
+    height: 80px;
+    justify-content: flex-end;
+    font-family: "poppins";
+    font-display: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(26, 26, 26);
+}
+.navbar-collapse ul li{
+    color: white;
+}
+.navbar-brand{
+    font-size: 24px;
+}
+
+.cardmb-3{
+   padding:  20 px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
